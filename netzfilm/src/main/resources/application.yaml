@@ -1,0 +1,10 @@
+#Nicht nötig, aber so einfach geht das:
+server:
+  port: 9000
+
+# per default sind nur health und info an
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
