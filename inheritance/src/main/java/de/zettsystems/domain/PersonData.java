@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class PersonData extends Data {
     private String name;
 
-    public PersonData(DataIdGenerator dataIdGenerator) {
+    public PersonData(DataIdGeneratorIF dataIdGenerator) {
         super(dataIdGenerator);
     }
 

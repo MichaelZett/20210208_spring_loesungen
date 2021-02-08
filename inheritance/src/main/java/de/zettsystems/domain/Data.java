@@ -4,7 +4,7 @@ public class Data {
     private final long id;
     private String theData;
 
-    public Data(DataIdGenerator dataIdGenerator) {
+    public Data(DataIdGeneratorIF dataIdGenerator) {
         this.id = dataIdGenerator.getNextId();
     }
 
